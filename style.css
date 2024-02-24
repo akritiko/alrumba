@@ -6,21 +6,28 @@
     grid-template-columns: repeat(2,1fr);
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: #101214;
-    color: #7A7C80;
+    background-color: #27374D;
+    color: #9DB2BF;
+}
 
+hr {
+    border-color: #9DB2BF;
 }
 
 h2,.white{
-    color: #fff;
+    color: #DDE6ED;
+}
+
+h3 {
+    color: #DDE6ED;
 }
 
 a{
-    color: #7A7C80;
+    color: #9DB2BF;
     text-decoration: none;
 }
 /* section 1 */
@@ -55,7 +62,7 @@ a{
     margin-bottom: 10px;
 }
 
-.section-2 p{
+.section-2 p, ul, li{
     font-size: 1.1rem;
     padding-bottom: 10px;
     margin:0;
@@ -64,13 +71,13 @@ a{
 .section-2 a{
     display: block;
     padding: 5px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     padding-left: 0;
     width: 100px;
 }
 /* animations / utilities */
 .section-2 a:hover{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     color: #fff;
     cursor: pointer;
     transition: 0.2s;
